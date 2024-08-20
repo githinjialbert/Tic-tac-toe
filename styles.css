@@ -1,0 +1,75 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: firebrick;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    color: black;
+}
+
+.tictac-borders {
+    background: #1e1e3f;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    color: black;
+}
+
+td {
+    background-color: floralwhite; 
+    color: black; 
+    height: 100px;
+    width: 100px; 
+    border: 1px solid #444; 
+    padding: 0;
+    text-align: center;
+    vertical-align: middle; 
+    font-size: 2em; 
+}
+
+.cells:hover {
+    cursor: pointer;
+}
+
+button {
+    background-color: #FFD700;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px #B8860B; 
+    transition: transform 0.1s ease-in-out;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #B8860B; 
+}
+
+#resultMsg, #winnerMsg {
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 0;
+}

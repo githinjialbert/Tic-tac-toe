@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <h2>Let the games begin!</h2>
+    <main>
+        <div class="tictac-borders">
+            <table class="table-overlay">
+                <tbody>
+                    <tr>
+                        <td id="cell-one"   class="cells"></td>
+                        <td id="cell-two"   class="cells"></td>
+                        <td id="cell-three" class="cells"></td>
+                    </tr>
+                    <tr>
+                        <td id="cell-four" class="cells"></td>
+                        <td id="cell-five" class="cells"></td>
+                        <td id="cell-six"  class="cells"></td>
+                    </tr>
+                    <tr>
+                        <td id="cell-seven" class="cells"></td>
+                        <td id="cell-eight" class="cells"></td>
+                        <td id="cell-nine"  class="cells"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="restart-button">Restart</button>
+            <div id="end-message">
+                <p id="result-message"></p>
+                <p id="winner-message"></p>
+            </div>
+        </div>
+    </main>
+    <script src="./JS/script.tictac.js.js"></script>
+</body>
+</html>
